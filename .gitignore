@@ -1,0 +1,45 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual environments ──
+.venv/
+venv/
+ENV/
+env/
+
+# ── IDE / Editor ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ── Raw data (large Excel files — not tracked) ──
+*.xlsx
+
+# ── Prepared CSVs (large — regenerate with data_preparation.py) ──
+prepared_products.csv
+prepared_workers.csv
+
+# ── Generated charts (regenerate with analytics.py) ──
+output_charts/
+
+# ── Streamlit ──
+.streamlit/
+
+# ── Misc ──
+*.log
+*.bak
+*.tmp
