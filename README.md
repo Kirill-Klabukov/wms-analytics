@@ -98,7 +98,7 @@ dataanalyza/
 ### 1. Clone & install
 
 ```bash
-git clone https://github.com/<your-username>/wms-analytics.git
+git clone https://github.com/Kirill-Klabukov/wms-analytics.git
 cd wms-analytics
 pip install -r requirements.txt
 ```
